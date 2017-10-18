@@ -1,0 +1,73 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue;
+  font-size: 1.61803398875vmin;
+  line-height: 1.61803398875;
+}
+
+.counterHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 20vmin;
+  text-align: center;
+  background-color: #4db6ac;
+  color: #fff;
+}
+
+.counterContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 8.09016994vmin;
+}
+
+.icon {
+  width: 14.5623059vmin;
+  height: auto;
+  margin: 0;
+}
+
+.title {
+  font-size: 6.47213596vmin;
+  margin: 0;
+  text-align: center;
+}
+
+.counted {
+  font-size: 12.9442719vmin;
+  margin: 0;
+  color: #f4511e;
+}
+
+.button {
+  margin: 0.80901699vw 0;
+  padding: 1.61803398875vmin 3.23606798vmin;
+  border: none;
+  font-size: 3.23606798vmin;
+  font-family: inherit;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  background-color: #26a69a;
+  color: #fff;
+}
+
+.button:focus {
+  background-color: #009688;
+  outline-color: #009688;
+}
+
+.button:hover {
+  background-color: #00897b;
+}
+
+.button:active {
+  background-color: #00796b;
+}
