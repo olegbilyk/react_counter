@@ -58,4 +58,4 @@ $ npm run eslint
 
 ## License
 
-[MIT](License.md)
+[MIT](LICENSE.md)
