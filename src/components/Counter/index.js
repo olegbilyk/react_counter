@@ -15,8 +15,13 @@ class Counter extends Component {
         </div>
         <div className={styles.counterContent}>
           <IconSmile className={styles.icon} fill={'#ff7043'} iconTitle="Icon Smile" />
-          <h3 className={styles.counted}>{this.state.counter}</h3>
-          <button className={styles.button} type="button" onClick={this.updateCounter}>Click Me</button>
+          <h3 className={styles.counted} aria-label="Counter value:">
+            {this.state.counter}
+          </h3>
+          <button className={styles.button} onClick={this.updateCounter}
+                  type="button" aria-label="Update counter value">
+            Click Me
+          </button>
         </div>
       </div>
     )

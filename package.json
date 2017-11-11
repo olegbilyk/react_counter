@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olegbilyk/webpack2-react-js-boilerplate.git"
+    "url": "git+https://github.com/olegbilyk/react_counter.git"
   },
   "keywords": [],
   "author": "Oleg Bilyk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/olegbilyk/webpack2-react-js-boilerplate/issues"
+    "url": "https://github.com/olegbilyk/react_counter/issues"
   },
-  "homepage": "https://github.com/olegbilyk/webpack2-react-js-boilerplate#readme",
+  "homepage": "https://github.com/olegbilyk/react_counter#readme",
   "devDependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
